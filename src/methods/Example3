@@ -1,0 +1,23 @@
+package methods;
+class X{};
+class Y{};
+class Stud{};
+class Emp{};
+public class Example3 {
+    void m1(X x, Stud s) {
+        System.out.println("InstanceMethod");
+    }
+    static void m2(Y y, Emp e) {
+        System.out.println("StaticMethod");
+    }
+    public static void main(String[] args) {
+        Example3 E3 = new Example3();
+        X x1 = new X();
+        Stud s1 = new Stud();
+        E3.m1(x1,s1);
+        Y y = new Y();
+        Emp e1 = new Emp();
+        Example3.m2(y,e1);
+    }
+}
+
