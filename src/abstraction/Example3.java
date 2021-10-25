@@ -1,5 +1,5 @@
 package abstraction;
-
+// Inside abstract class. we can declare main method
 public class Example3 {
     public static void main(String[] args)
     {
